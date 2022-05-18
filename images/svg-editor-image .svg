@@ -1,0 +1,16 @@
+<svg width="128" height="30" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(35.373566158741596,0,0,46.005094013991766,-3876.687284996977,-8238.32441105316) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="3" id="svg_5" y="184.476888" x="111.75987" stroke-width="0" fill="#000000">shnasstik</text>
+  <text stroke="#000" transform="matrix(35.373566158741596,0,0,46.005094013991766,-3876.687284996977,-8238.32441105316) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="3" id="svg_1" y="184.455151" x="111.788139" stroke-width="0" fill="#ffffff">shnasstik</text>
+  <path id="svg_3" d="m105.7325,330.21007l0.569133,0l0.175867,-0.381968l0.175867,0.381968l0.569133,0l-0.460438,0.236066l0.175876,0.381968l-0.460438,-0.236073l-0.460438,0.236073l0.175876,-0.381968l-0.460438,-0.236066z" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000"/>
+ </g>
+</svg>

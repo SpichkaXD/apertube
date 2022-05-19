@@ -26,13 +26,13 @@
 
 .todo__container {
     display: flex;
-    margin: 0 120px;
+    margin: 0 100px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card {
-    margin: 40px 0 0 0;
+    margin: 30px 15px 0 15px;
     position: relative;
     width: 580px;
     height: 600px;

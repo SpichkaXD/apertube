@@ -1,0 +1,25 @@
+.helper {
+    padding: 0 0 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+.healper__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+}
+.healper__subtitle {
+    margin: 20px 0 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #c0c0c0;
+}

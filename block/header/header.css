@@ -8,12 +8,11 @@
 }
 
 .logo {
-    width: 128px;
-    height: 30px;
-    background-image: url();
+    width: 190px;
+    height: 60px;
+    background-image: url(../../images/logo.svg);
     background-position: center;
-    object-fit: cover;
-    border: 1px solid red;
+    object-fit: contain;
 }
 
 .navigation {

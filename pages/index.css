@@ -4,4 +4,7 @@
 @import url(../block/header/header.css);
 @import url(../block/intro/intro.css);
 @import url(../block/todo/todo.css);
-
+@import url(../block/Image-cover/image-cover.css);
+@import url(../block/tools/tools.css);
+@import url(../block/helper/helper.css);
+@import url(../block/footer/footer.css);

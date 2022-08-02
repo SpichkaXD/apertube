@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+    .header {
+        margin: 0 20px;
+    }
+}
+
 .logo {
     width: 190px;
     height: 60px;
@@ -33,7 +39,6 @@
 
 .navlink {
     margin-left: 30px;
-   
 }
 
 .navlink:hover {

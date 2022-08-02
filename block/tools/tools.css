@@ -22,8 +22,8 @@
     color: #ffffff;
 }
 .tools__subtitle {
-    width: 520px;
-    margin: 20px 0 25px;
+    max-width: 520px;
+    margin: 20px 20px 25px;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -31,12 +31,27 @@
     color: #c0c0c0;
 }
 
+/* @media screen and (max-width: 1200px) {
+    .tools__subtitle {
+        padding: 28px 24px 0;
+    }
+} */
+
 .tools__overlay {
     width: 50%;
     height: 540px;
+    min-height: 400px;
     background-image: url(../../images/tools.jpg);
     background-position: center;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .tools__overlay {
+        width: 50%;
+        height: 70%;
+        background-position: bottom;
+    }
 }
 
 .tools__title {

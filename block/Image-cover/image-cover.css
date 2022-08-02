@@ -19,7 +19,8 @@
     position: absolute;
     bottom: 130px;
     right: 80px;
-    width: 440px;
+    width: 35%;
+    height: 100px;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -38,7 +39,6 @@
     opacity: 0.8;
 }
 
-
 .velo {
     object-fit: cover;
     height: 680px;
@@ -46,8 +46,8 @@
 
 .velo__title {
     color: #000;
-    top: 130px;
-    left: 80px;
+    top: 10%;
+    left: 7%;
 }
 
 .velo__link {
@@ -57,3 +57,24 @@
 .velo__link:hover {
     color: black;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .image__title {
+        bottom: 340px;
+        right: 95px;
+    }
+
+    .main-image {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .velo {
+        height: 40%;
+    }
+}
+
+
+

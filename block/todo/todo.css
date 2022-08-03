@@ -1,6 +1,6 @@
 .todo {
-    margin: 0;
-    padding: 100px 0;
+    margin: 0 auto;
+    padding: 100px 15px;
     background-color: black;
 }
 
@@ -113,4 +113,18 @@
     color: white;
     background-color: #000000;
     border: 3px white solid;
+}
+
+@media screen and (max-width: 800px) {
+    .todo__title {
+        font-size: 28px;
+    }
+
+    .todo__subtitle {
+        font-size: 16px;
+    }
+
+    .todo {
+        padding-top: 50px;
+    }
 }

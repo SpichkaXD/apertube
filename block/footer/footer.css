@@ -42,3 +42,40 @@
     transform: translateY(-5px);
 }
 
+@media screen and (max-width: 900px) {
+    .footer__title {
+        display: none;
+    }
+
+    .footer__links {
+        width: 250px;
+    }
+
+    .footer {
+        padding: 0 20px 40px;
+    }
+
+    .footer__link-social {
+        width: 50px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer__title {
+        display: none;
+    }
+    .footer__logo {
+        display: none;
+    }
+    .footer__links {
+        width: 100%;
+    }
+    .footer {
+        padding: 0 20% 40px;
+    }
+
+    .footer__link-social {
+        width: 50px;
+    }
+}

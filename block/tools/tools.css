@@ -46,14 +46,6 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 1200px) {
-    .tools__overlay {
-        width: 50%;
-        height: 70%;
-        background-position: bottom;
-    }
-}
-
 .tools__title {
     margin: 0;
     position: absolute;
@@ -66,4 +58,30 @@
     line-height: 30px;
     text-align: center;
     color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .tools__overlay {
+        width: 50%;
+        height: 70%;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tools__subtitle {
+        font-size: 20px;
+    }
+
+    .tools {
+        flex-direction: column;
+    }
+
+    .tools__box {
+        width: 100%;
+    }
+    .tools__overlay {
+        width: 100%;
+        margin-top: 20px;
+    }
 }

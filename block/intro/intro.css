@@ -16,6 +16,7 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, 50%);
+    margin: 0 auto;
 }
 
 .inrto__profile {
@@ -49,4 +50,30 @@
     padding: 0;
     max-width: 580px;
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .overlay {
+        height: 450px;
+        object-fit: contain;
+    }
+
+    .intro-box {
+        top: 25%;
+    }
+
+    .inrto__profile {
+        font-size: 12px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        width: 310px;
+        
+    }
+
+    .intro__subtitle {
+        font-size: 12px;
+        width: 80%;
+    }
 }
